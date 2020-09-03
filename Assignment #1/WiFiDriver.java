@@ -1,4 +1,13 @@
 import java.util.Scanner;
+/*
+Class: CMSC203 CRN 22445
+Program: Assignment 1 
+Instructor: Dr. Grinberg
+Summary of Description: A program that go through some possible problem that restore the Wifi connectivity.
+Due Date: 09/13/2020
+Integrity Pledge: I pledge that I have completed the programming assignment independently.
+I have not copied the code from a student or any source.
+*/
 
 public class WiFiDriver {
 
