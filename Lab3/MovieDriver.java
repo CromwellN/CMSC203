@@ -1,3 +1,12 @@
+/**
+*Class: CMSC203 CRN 22445
+*Program: Lab 3 
+*Instructor: Dr.Grinberg
+Summary of Description: Driver and Data Element Driver to test a class.
+*Due Date: 09/13/2020
+*Integrity Pledge: I pledge that I have completed the programming assignment independently.
+I have not copied the code from a student or any source.
+*/
 import java.util.Scanner;
 public class MovieDriver {
 	public static void main(String[] args) {
