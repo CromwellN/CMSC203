@@ -66,11 +66,7 @@ public class GradeBook{
    public int getScoresSize() {
 	    return scoresSize;
 	  }
-	  /**
-	   * Output as String the added scores of the scores array field
-	   * according to scoreSize
-	   * @ the elements of scores separated by " "
-	   */
+
 	  @Override
 	  public String toString() {
 	    StringBuilder scoreString = new StringBuilder();
