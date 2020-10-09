@@ -1,4 +1,4 @@
-Class: CMSC203 CRN 22445
+/*Class: CMSC203 CRN 22445
  Program: Assignment 3 Design
  Instructor: Dr. Grinberg
  Summary of Description: This program encrypt and decrypt a phrase using two similar approaches.
@@ -6,7 +6,7 @@ Class: CMSC203 CRN 22445
  Integrity Pledge: I pledge that I have completed the programming assignment independently.
  I have not copied the code from a student or any source.
 Student: Cromwell Nzouakeu
-
+*/
 public class CryptoManager {
    private static final char LOWER_BOUND = ' ';
    private static final char UPPER_BOUND = '_';
