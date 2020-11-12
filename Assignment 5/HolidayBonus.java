@@ -1,5 +1,5 @@
 /*Class: CMSC203 CRN 22445
- Program: Assignment 4 
+ Program: Assignment 5
  Instructor: Dr. Grinberg
  Summary of Description: This program encrypt and decrypt a phrase using two similar approaches.
  Due Date: 11/15/2020
