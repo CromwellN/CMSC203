@@ -1,3 +1,13 @@
+/*Class: CMSC203 CRN 22445
+ Program: Assignment 5
+ Instructor: Dr. Grinberg
+ Summary of Description: This program encrypt and decrypt a phrase using two similar approaches.
+ Due Date: 11/15/2020
+ Integrity Pledge: I pledge that I have completed the programming assignment independently.
+ I have not copied the code from a student or any source.
+Student: Cromwell Nzouakeu
+*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
