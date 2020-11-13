@@ -113,7 +113,7 @@ public class TwoDimRaggedArrayUtility {
     	count += data[index].length; 
       for (int column = 0;column < data[index].length; column++) {
     	  total += data[index][column];
-    	  count++;
+    	  
       }
     }
     return total / count;
