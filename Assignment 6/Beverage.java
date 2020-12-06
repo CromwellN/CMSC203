@@ -1,3 +1,12 @@
+/*Class: CMSC203 CRN 22445
+ Program: Assignment 6
+ Instructor: Dr. Grinberg
+ Summary of Description: This program encrypt and decrypt a phrase using two similar approaches.
+ Due Date: 12/06/2020
+ Integrity Pledge: I pledge that I have completed the programming assignment independently.
+ I have not copied the code from a student or any source.
+Student: Cromwell Nzouakeu
+*/
 
 public abstract class Beverage {
 
