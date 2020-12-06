@@ -1,3 +1,14 @@
+/*Class: CMSC203 CRN 22445
+ Program: Assignment 6
+ Instructor: Dr. Grinberg
+ Summary of Description: This program encrypt and decrypt a phrase using two similar approaches.
+ Due Date: 12/06/2020
+ Integrity Pledge: I pledge that I have completed the programming assignment independently.
+ I have not copied the code from a student or any source.
+Student: Cromwell Nzouakeu
+*/
+
+
 import java.util.ArrayList;
 
 public class Order implements OrderInterface, Comparable {
@@ -14,16 +25,17 @@ public class Order implements OrderInterface, Comparable {
 	 */
 
 	public Order(int time, DAY day, Customer customer) {
-		this.number = getRnd();
+		this.number = getRandNum();
 		this.time = time;
 		this.day = day;
 		this.customer = new Customer(customer);
 		this.bevList = new ArrayList<>();
 	}
+	
 	/*
 	 *  A method to generate a random number within the range of 10000 and 90000 
 	 */
-	public int getRnd() {
+	public int getRandNum() {
 		int min = 10000;
 		int max = 90000;
 		int randomNum = (int) (Math.random() * (max - min + 1) + min);
@@ -142,12 +154,11 @@ public class Order implements OrderInterface, Comparable {
 			string += "\nCost = " + calcOrderTotal();
 			return string;
 		}
-
-	public int getTotalItems() { return bevList.size();
-	}
-
-	public Customer getCustomer() {
+		
+		public Customer getCustomer() {
 		return new Customer(customer.getName(), customer.getAge());
+	}
+	public int getTotalItems() { return bevList.size();
 	}
 
 	public int getOrderNo() { return number; }
